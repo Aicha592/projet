@@ -1,0 +1,152 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: Matura MT Script Capitals;
+
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: dodgerblue;
+	padding: 15px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: #000;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.pr{
+	font-size: 50px;
+	color: dodgerblue;
+}
+.pr span{
+	font-size: 30px;
+	font-family:Imprint MT Shadow;
+	color: black;
+}
+
+.pr1{
+	font-size: 50px;
+	color: dodgerblue;
+}
+.pr2{
+	
+animation: home 10s  infinite;
+}
+@keyframes home{
+	0%{
+		background-image: url(chey1.jpg);
+	}
+	25%{
+		background-image: url(chey2.jpg);
+	}
+	50%{
+		background-image: url(chey3.jpg);
+	}
+	100%{
+		background-image: url(chey4.jpg);
+	}
+
+}
+.pr3{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+.pr3 span{
+	font-family: arial;
+	font-weight: normal;
+	font-size: 15px;
+}
+.pr4{
+	
+animation: homes 10s linear  infinite;
+}
+@keyframes homes{
+	0%{
+		background-image: url(new1.jpg);
+	}
+	25%{
+		background-image: url(new2.png);
+	}
+	50%{
+		background-image: url(new3.jpg);
+	}
+	100%{
+		background-image: url(new4.jpg);
+	}
+
+}
+.pr5{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+.pr5 span{
+	font-family: arial;
+	font-weight: normal;
+	font-size: 15px;
+}
+.pr6{
+	
+animation: homess 10s linear  infinite;
+}
+@keyframes homess{
+	0%{
+		background-image: url(gir1.jpg);
+	}
+	25%{
+		background-image: url(gir2.jpg);
+	}
+	50%{
+		background-image: url(gir3.jpg);
+	}
+	100%{
+		background-image: url(gir4.jpg);
+	}
+
+}
+.pr7{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+.pr7 span{
+	font-family: arial;
+	font-weight: normal;
+	font-size: 15px;
+}

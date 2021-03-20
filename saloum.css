@@ -1,0 +1,136 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: Matura MT Script Capitals;
+
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: dodgerblue;
+	padding: 15px 0px;
+	margin-top: -300px;
+	margin: -100px 0px;
+	;
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: #000;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.pr0.pr{
+	position: absolute;
+}
+.pr{
+	display: flex;
+	margin: 0px;
+	margin-top: 100px;
+	margin-bottom:  0px;
+	text-shadow: 2px 2px 0 dodgerblue,
+	             4px 4px 0 dodgerblue;
+	font-family: arial; 
+	font-size: 70px;            
+}
+.pr1{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}
+.pr2{
+	border-radius: 100%;
+animation: home 10s  infinite;
+border:7px dotted dodgerblue;
+}
+@keyframes home{
+	0%{
+		background-image: url(sk1copie.jpg);
+	}
+	50%{
+		background-image: url(sk2copie.jpg);
+	}
+	100%{
+		background-image: url(sk3copie.jpg);
+	}
+	}
+.pr3{
+	text-shadow: 2px 2px 0 dodgerblue,
+	             4px 4px 0 dodgerblue;
+	font-family: arial; 
+	font-size: 70px; 
+}	
+.pr4{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}
+.pr5{
+	border-radius: 100%;
+animation: homes 10s  infinite;
+border:7px dotted dodgerblue;
+}
+@keyframes homes{
+	0%{
+		background-image: url(rl1.jpg);
+	}
+	50%{
+		background-image: url(rl2.jpg);
+	}
+	100%{
+		background-image: url(rl3.jpg);
+	}
+	}
+.pr6{
+	text-shadow: 2px 2px 0 dodgerblue,
+	             4px 4px 0 dodgerblue;
+	font-family: arial; 
+	font-size: 70px; 
+}		
+.pr7{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}
+.pr8{
+	border-radius: 100%;
+animation: homess 10s  infinite;
+border:7px dotted dodgerblue;
+}
+@keyframes homess{
+	0%{
+		background-image: url(pel1.jpg);
+	}
+	50%{
+		background-image: url(pel2.jpg);
+	}
+	100%{
+		background-image: url(pel3.jpg);
+	}
+	}
+	
